@@ -3,13 +3,13 @@ server:
   port: 0
   servlet:
     context-path: /ms-companies
-
 #Configurations for the Data Source - Companies microservice
 spring:
   datasource:
     url: jdbc:postgresql://127.0.0.1:5432/companies-db
     username: postgres
     password: 123456789
+    driver-class-name: org.postgresql.Driver
     hikari:
       connection-timeout: 20000
       maximum-pool-size: 10
