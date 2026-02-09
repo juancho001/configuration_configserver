@@ -1,5 +1,11 @@
-spring:
+# Spring Boot application configuration for ms-companies service
+server:
+  port: 0
+  servlet:
+    context-path: /ms-companies
+
 #Configurations for the Data Source - Companies microservice
+spring:
   datasource:
     url: jdbc:postgresql://127.0.0.1:5432/companies-db
     username: postgres
