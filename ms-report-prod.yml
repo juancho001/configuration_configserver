@@ -1,8 +1,8 @@
 # Spring Boot application configuration for ms-report service
 server:
   port: 0
-  servlet:
-    context-path: /ms-report
+#  servlet:
+#    context-path: /ms-report
     
 # Configuration for Eureka Client
 eureka:

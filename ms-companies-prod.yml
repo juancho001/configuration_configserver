@@ -1,8 +1,9 @@
 # Spring Boot application configuration for ms-companies service
 server:
   port: 0
-  servlet:
-    context-path: /ms-companies
+#  servlet:
+#    context-path: /ms-companies
+
 #Configurations for the Data Source - Companies microservice
 spring:
   datasource:
